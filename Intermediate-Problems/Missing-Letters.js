@@ -11,6 +11,7 @@ const fearNotLetter = (str) => {
     }
     indexOfString++;
   }
+  return undefined
 };
 
 const result = console.log(fearNotLetter("stvwx"));
